@@ -1,0 +1,82 @@
+#-------------------------------
+# General Site Settings
+
+title: Bienvenidos a Quiasa
+description: " . "
+email: info@quimicosasociados.com
+tlf: "Teléfono: + 511 577 3103"
+fax: "Fax: + 511 577 0902"
+direccion: "Dirección: Urb. Palmeras de Oquendo Mz. C10 Lt 19, Callao - Perú"
+contacto: "Si tiene alguna consulta acerca de nuestros productos y servicios, por favor contáctenos o complete el formulario."
+designed: J. Media
+
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: Inicio, url: '#Inicio'}
+- {name: Productos y Servicios, url: '#P&S'}
+- {name: I+D, url: '#I+D'}
+- {name: Clientes, url: '#clientes'}
+- {name: Contacto, url: '#contacto'}
+
+
+
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+#seo:
+#  description: 'Provide a description for your website to make it visible to search engines.'
+#  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+#  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+bienvenida1: >
+  **QUIASA CONSULTING S.R.L.** cuenta con 25 años de experiencia, fundada en 1993 como una empresa de consultoría y de comercio exterior dentro del sector industrial.
+
+bienvenida2: >
+  Nuestro equipo multidisciplinario nos permite identificar y satisfacer las necesidades de nuestros clientes a través de nuestros productos y servicios de reconocida calidad.
+
+bienvenida3: >
+  Adicionalmente, contamos con un staff de técnicos asociados que poseen la mayor experiencia en el sector industrial peruano y regional.
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Productos, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Servicios, folder: 'proj-2', file: 'work/proj-2.html'}
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'face-roberto.jpg',
+  name: 'Roberto Persivale',
+  title: 'Socio Fundador - Asesorandes',
+  quote: '<p><strong>Durante la ultima decada hemos trabajado con Quiasa </strong> en una serie de proyectos de los cuales hemos salido muy satisfechos por la calidad de su trabajo y la etica profesional de todo el equipo que lo conforma. A su vez, he visto de cerca el desarrollo de sus fundadores desde hace mas de de 25 años atras, mucho antes que se formara la empresa. El liderazgo mostrado durante todo este tiempo ha pagado sus frutos con el reconocimiento profesional y cientifico como conferencista e investigador a nivel internacional.</p>',
+  logo: 'logo01.png'}
+
+- {avatar: 'face-ana.jpg',
+  name: 'Ana Maria Osorio',
+  title: 'Laboratorio de Nanotecnología e Innovación Tecnológica',
+  quote: '<p>Los profesionales que trabajan en Quiasa son dignos de mi admiración, no solo por la calidad académica y empresarial sino también por la férrea voluntad de lograr vinculaciones con la universidad como es en el caso de su destacada participación en el proyecto Innovate Perú Fincyt 134-IA-2013 como institución asociada, quienes aportaron tanto con sus conocimientos, subvención económica y asesoría para que el proyecto sea exitoso. Gracias a su apoyo UNMSM se ha visto favorecida en el desarrollo de innovaciones tecnológicas y tecnologías emergentes.</p>',
+  logo: 'logo02.png'}

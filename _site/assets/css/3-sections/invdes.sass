@@ -1,0 +1,45 @@
+
+.inv-wrap
+  max-width: 750px
+  margin: 50px auto
+  position: relative
+  padding-bottom: 80px
+  +clearfix
+
+  .logo-inst
+    float: left
+    //text-align: center
+
+    img
+      max-width: 150px
+
+.bar
+  width: 250px
+  height: 0px
+  border-top: 4px solid $accent
+  margin: 0px auto 50px
+
+.inv-content
+  font-size: 20px
+  line-height: 36px
+  font-weight: 300
+  max-width: 600px
+  margin: 10px auto 20px
+  text-align: center
+
+  .tesis
+    margin: 20px auto 50px
+    //text-align: center
+
+@media screen and (max-width: 610px)
+  .inv-wrap
+    width: 100%
+    .inv-content
+      width: 100%
+      font-size: 16px
+      .logo-inst
+        width: 100%
+        margin: 0px auto 20px
+      .inv-text
+        width: 100%
+
